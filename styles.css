@@ -1,0 +1,41 @@
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Space Mono", monospace;
+	font-weight: 400;
+	background: black;
+	color: white;
+}
+
+
+.img-container {
+	position: fixed;
+}
+
+.img-container img {
+	height: 100%;
+    top: -10%;
+	bottom: -10%;
+	right: 70%;
+}
+
+
+/* MOBILE */
+@media screen and (max-width: 680px) {
+    .img-container {
+        position: fixed;
+        right: 10%;
+    }
+}
+
+/* Animation */
+
+/* #bg01 {
+	animation: pulse 7s infinite;
+	filter: drop-shadow(0 0 0 white);
+} */
