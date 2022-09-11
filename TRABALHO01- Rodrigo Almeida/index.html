@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css" />
+    <title>Trabalho01</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"  crossorigin="anonymous">
+</head>
+
+<body id="body">
+    
+    <main>
+        <section class="py-5 text-center">
+            <div class="col-lg-6 col-md-8 mx-auto">
+                <h1>Consulta Países</h1>
+                <p>Selecione seu país abaixo</p>
+                <select name="select-countries" id="select-countries" onchange="selectCountries()">
+                    <option>Select</option>
+                </select>
+            </div>
+        </section>
+
+        <div class="text-center">
+            <section class="data">
+                <div>
+                    <img id="countries-flag">
+                </div>
+                <div class="py-5">
+                    <p id="countries-name"></p>
+                    <p id="countries-capital"></p>
+                    <p id="countries-continent"></p>
+                    <p id="countries-population"></p>
+                    <p id="countries-area"></p>
+                    <!-- <p id="countries-currenci"></p>
+                    <p id="countries-languages"></p> -->
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <script type= "text/javascript" src="scripts.js"></script>
+</body>
+</html>
